@@ -1,0 +1,501 @@
+{
+  "heldout_csv": "M_RB_R_AA_0025_003(1).csv",
+  "results": [
+    {
+      "task": "home_to_approach_feeder",
+      "model_error_mm": 21.37,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        6.15,
+        -564.984,
+        1615.066
+      ],
+      "goal_mm": [
+        -634.493,
+        -664.466,
+        1297.374
+      ],
+      "generated_waypoints_mm": [
+        [
+          -111.584,
+          -578.79,
+          1566.026
+        ],
+        [
+          -239.656,
+          -617.481,
+          1513.652
+        ],
+        [
+          -355.721,
+          -632.7,
+          1445.502
+        ],
+        [
+          -507.512,
+          -642.331,
+          1364.379
+        ]
+      ]
+    },
+    {
+      "task": "approach_feeder_to_pick",
+      "model_error_mm": 11.61,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        -635.642,
+        -666.576,
+        1292.232
+      ],
+      "goal_mm": [
+        -641.827,
+        -734.499,
+        1093.965
+      ],
+      "generated_waypoints_mm": [
+        [
+          -634.476,
+          -678.674,
+          1254.925
+        ],
+        [
+          -633.541,
+          -702.652,
+          1212.304
+        ],
+        [
+          -618.101,
+          -707.52,
+          1184.548
+        ],
+        [
+          -638.873,
+          -716.077,
+          1140.633
+        ]
+      ]
+    },
+    {
+      "task": "pick_to_retreat_feeder",
+      "model_error_mm": 31.82,
+      "straight_baseline_error_mm": 170.42,
+      "raw_waypoint_marks": 2,
+      "start_mm": [
+        -642.186,
+        -734.595,
+        1093.887
+      ],
+      "goal_mm": [
+        -38.619,
+        -465.779,
+        1590.929
+      ],
+      "generated_waypoints_mm": [
+        [
+          -645.985,
+          -676.738,
+          1185.375
+        ],
+        [
+          -648.201,
+          -642.989,
+          1281.097
+        ],
+        [
+          -454.062,
+          -582.206,
+          1399.566
+        ],
+        [
+          -249.8,
+          -521.373,
+          1493.513
+        ]
+      ]
+    },
+    {
+      "task": "retreat_feeder_to_approach_machine",
+      "model_error_mm": 139.14,
+      "straight_baseline_error_mm": 279.51,
+      "raw_waypoint_marks": 3,
+      "start_mm": [
+        -3.822,
+        -466.777,
+        1590.965
+      ],
+      "goal_mm": [
+        1136.451,
+        -26.104,
+        1152.938
+      ],
+      "generated_waypoints_mm": [
+        [
+          393.158,
+          -78.858,
+          1589.949
+        ],
+        [
+          525.152,
+          -25.69,
+          1562.625
+        ],
+        [
+          598.378,
+          -61.91,
+          1497.195
+        ],
+        [
+          851.307,
+          -13.752,
+          1221.703
+        ]
+      ]
+    },
+    {
+      "task": "approach_machine_to_place",
+      "model_error_mm": 11.15,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        1136.867,
+        -25.955,
+        1148.819
+      ],
+      "goal_mm": [
+        1139.227,
+        -24.874,
+        1114.253
+      ],
+      "generated_waypoints_mm": [
+        [
+          1138.32,
+          -27.482,
+          1139.753
+        ],
+        [
+          1135.329,
+          -37.3,
+          1133.216
+        ],
+        [
+          1158.509,
+          -27.64,
+          1134.783
+        ],
+        [
+          1140.026,
+          -20.261,
+          1127.468
+        ]
+      ]
+    },
+    {
+      "task": "place_to_retreat_machine",
+      "model_error_mm": 69.83,
+      "straight_baseline_error_mm": 232.84,
+      "raw_waypoint_marks": 2,
+      "start_mm": [
+        1136.327,
+        -24.45,
+        1100.686
+      ],
+      "goal_mm": [
+        641.626,
+        -21.295,
+        1665.603
+      ],
+      "generated_waypoints_mm": [
+        [
+          975.02,
+          -26.42,
+          1104.703
+        ],
+        [
+          758.388,
+          -38.748,
+          1363.747
+        ],
+        [
+          582.968,
+          -27.586,
+          1656.0
+        ],
+        [
+          605.313,
+          -18.646,
+          1662.015
+        ]
+      ]
+    },
+    {
+      "task": "machining_end_to_approach_machine",
+      "model_error_mm": 95.13,
+      "straight_baseline_error_mm": 237.42,
+      "raw_waypoint_marks": 2,
+      "start_mm": [
+        624.177,
+        -6.937,
+        1657.72
+      ],
+      "goal_mm": [
+        967.002,
+        -24.074,
+        1114.901
+      ],
+      "generated_waypoints_mm": [
+        [
+          609.886,
+          -10.791,
+          1660.882
+        ],
+        [
+          581.871,
+          -35.983,
+          1650.358
+        ],
+        [
+          640.602,
+          -23.111,
+          1591.741
+        ],
+        [
+          790.869,
+          -14.592,
+          1350.363
+        ]
+      ]
+    },
+    {
+      "task": "approach_machine_to_pick",
+      "model_error_mm": 12.77,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        979.129,
+        -24.151,
+        1113.887
+      ],
+      "goal_mm": [
+        1130.876,
+        -24.477,
+        1103.836
+      ],
+      "generated_waypoints_mm": [
+        [
+          1012.989,
+          -26.611,
+          1108.27
+        ],
+        [
+          1040.384,
+          -38.558,
+          1108.022
+        ],
+        [
+          1090.53,
+          -29.885,
+          1115.909
+        ],
+        [
+          1103.099,
+          -19.92,
+          1112.591
+        ]
+      ]
+    },
+    {
+      "task": "pick_to_retreat_machine",
+      "model_error_mm": 292.77,
+      "straight_baseline_error_mm": 204.0,
+      "raw_waypoint_marks": 4,
+      "start_mm": [
+        1141.451,
+        -24.454,
+        1105.818
+      ],
+      "goal_mm": [
+        484.788,
+        -112.747,
+        1766.076
+      ],
+      "generated_waypoints_mm": [
+        [
+          965.713,
+          -54.422,
+          1158.551
+        ],
+        [
+          694.26,
+          -83.502,
+          1292.982
+        ],
+        [
+          498.977,
+          -89.898,
+          1634.895
+        ],
+        [
+          467.666,
+          -93.031,
+          1723.294
+        ]
+      ]
+    },
+    {
+      "task": "retreat_machine_to_approach_unloader",
+      "model_error_mm": 69.47,
+      "straight_baseline_error_mm": 158.11,
+      "raw_waypoint_marks": 2,
+      "start_mm": [
+        483.564,
+        -116.021,
+        1766.25
+      ],
+      "goal_mm": [
+        -629.259,
+        -666.079,
+        1296.332
+      ],
+      "generated_waypoints_mm": [
+        [
+          275.758,
+          -310.877,
+          1772.482
+        ],
+        [
+          57.86,
+          -528.697,
+          1758.482
+        ],
+        [
+          -135.61,
+          -624.548,
+          1647.776
+        ],
+        [
+          -402.845,
+          -641.476,
+          1462.568
+        ]
+      ]
+    },
+    {
+      "task": "approach_unloader_to_place",
+      "model_error_mm": 11.53,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        -630.32,
+        -668.192,
+        1291.182
+      ],
+      "goal_mm": [
+        -639.176,
+        -734.687,
+        1093.233
+      ],
+      "generated_waypoints_mm": [
+        [
+          -628.69,
+          -680.38,
+          1252.956
+        ],
+        [
+          -626.868,
+          -703.362,
+          1211.507
+        ],
+        [
+          -614.839,
+          -709.782,
+          1182.786
+        ],
+        [
+          -633.727,
+          -717.879,
+          1138.884
+        ]
+      ]
+    },
+    {
+      "task": "place_to_retreat_unloader",
+      "model_error_mm": 12.79,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        -639.496,
+        -732.597,
+        1099.496
+      ],
+      "goal_mm": [
+        -637.886,
+        -684.833,
+        1227.577
+      ],
+      "generated_waypoints_mm": [
+        [
+          -634.057,
+          -720.287,
+          1124.387
+        ],
+        [
+          -629.213,
+          -721.546,
+          1150.752
+        ],
+        [
+          -614.127,
+          -706.2,
+          1182.489
+        ],
+        [
+          -632.324,
+          -691.719,
+          1205.749
+        ]
+      ]
+    },
+    {
+      "task": "retreat_unloader_to_end",
+      "model_error_mm": 16.67,
+      "straight_baseline_error_mm": 0.0,
+      "raw_waypoint_marks": 1,
+      "start_mm": [
+        -606.982,
+        -699.579,
+        1248.235
+      ],
+      "goal_mm": [
+        31.351999999999997,
+        -585.119,
+        1563.948
+      ],
+      "generated_waypoints_mm": [
+        [
+          -489.235,
+          -688.785,
+          1302.958
+        ],
+        [
+          -361.94,
+          -676.548,
+          1355.056
+        ],
+        [
+          -223.698,
+          -640.562,
+          1433.522
+        ],
+        [
+          -101.256,
+          -607.688,
+          1505.39
+        ]
+      ]
+    }
+  ],
+  "mean_fm_mm": 61.234615384615374,
+  "mean_straight_baseline_mm": 98.63846153846156
+}
